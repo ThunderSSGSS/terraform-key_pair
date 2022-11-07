@@ -14,7 +14,7 @@ The module was tested using:
 ### Creating a Key pair with 4096 bits RSA key
 ```hcl
 module "example_key_pair" {
-    source          = ...
+    source          = "github.com/ThunderSSGSS/terraform-key_pair"
     key_name        = "my-key"
     rsa_key_bits    = 4096
     # Tags
